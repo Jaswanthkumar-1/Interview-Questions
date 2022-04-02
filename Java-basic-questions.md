@@ -105,7 +105,18 @@ A Marker interface can be defined as the interface having no data member and mem
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
+ 
+## Q. Does “finally” always execute in Java?
 
+Doesnot executes only in following cases;
+
+	“System.exit()” function;
+	system crash;
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+ 
 ## Q. Does “finally” always execute in Java?
 
 Doesnot executes only in following cases;
@@ -115,16 +126,3 @@ Doesnot executes only in following cases;
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
- 
-## Q. What Methods Does the Object Class Have?
-
-Doesnot executes only in following cases;
-
-	*“System.exit()” function;
-	*system crash;
-
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
- 
-  
