@@ -55,8 +55,9 @@ Because of primitive data types namely: boolean, byte, char, int, float, double,
 
 ## Q. Why pointers are not used in Java?
 
-*Since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,pointers are discouraged in Java.
-*Increases the complexity of the program and since Java is known for simplicity of code, adding the concept of pointers will be contradicting.
+*Since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,pointers are discouraged in Java;
+
+*Increases the complexity of the program and since Java is known for simplicity of code, adding the concept of pointers will be contradicting;
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -77,3 +78,12 @@ Java source code converts into byte code using JDK compiler and byte code conver
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
+
+## Q. Why String is immutable in java?
+
+security because string is shared on different area like file system, networking connection, database connection , having immutable string allows you to be secure and safe because no one can change reference of string once it gets created.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
