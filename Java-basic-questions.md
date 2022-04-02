@@ -117,11 +117,24 @@ Doesnot executes only in following cases;
     <b><a href="#">↥ back to top</a></b>
 </div>
  
-## Q. Does “finally” always execute in Java?
+## Q. What Methods Does the Object Class Have?
 
-Doesnot executes only in following cases;
-	*“System.exit()” function;
-	*system crash;
+Java.lang.Object class, parent of all has following methods:
+	
+	->protected Object clone() throws CloneNotSupportedException;
+							*Creates and returns a copy of this object;
+	->public boolean equals(Object obj);
+							*Indicates whether some other object is “equal to” this one;
+	->protected void finalize() throws Throwable;
+							*Called by the garbage collector on an object when garbagecollection   determines that there are no more references to the object;
+	->public final Class getClass() : Returns the runtime class of an object;
+	->public int hashCode(): Returns a hash code value for the object;
+	->public String toString(): Returns a string representation of the object;
+	->public final void notify();
+	->public final void notifyAll();
+	->public final void wait();
+	->public final void wait(long timeout);
+	->public final void wait(long timeout, int nanos);
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
