@@ -46,8 +46,9 @@ Java 8 interface changes include static methods and default methods in interface
 
 ## Q. Why Java is not 100% Object-oriented?
 
-Because of primitive data types namely: boolean, byte, char, int, float, double, long, short
-	*we have wrapper classes which actually “wrap” the primitive data type into an object of that class.
+*Because of primitive data types namely: boolean, byte, char, int, float, double, long, short;
+
+	*we have wrapper classes which actually “wrap” the primitive data type into an object of that class;
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -87,3 +88,43 @@ security because string is shared on different area like file system, networking
     <b><a href="#">↥ back to top</a></b>
 </div>
 
+## Q. What is a marker interface?
+
+A Marker interface can be defined as the interface having no data member and member functions. In simpler terms, an empty interface is called the Marker interface.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## Q. Can you override a private or static method in Java?
+
+*you cannot override a private method in sub class because it's not accessible there, we can do is create another private method with the same name in the child class;
+
+*For static methods if you create a similar method with same return type and same method arguments in child class then it will hide the superclass method, this is known as method hiding;
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## Q. Does “finally” always execute in Java?
+
+Doesnot executes only in following cases;
+	*“System.exit()” function;
+	*system crash;
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+ 
+## Q. What Methods Does the Object Class Have?
+
+Doesnot executes only in following cases;
+
+	*“System.exit()” function;
+	*system crash;
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+ 
+  
