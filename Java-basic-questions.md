@@ -46,9 +46,9 @@ Java 8 interface changes include static methods and default methods in interface
 
 ## Q. Why Java is not 100% Object-oriented?
 
-*Because of primitive data types namely: boolean, byte, char, int, float, double, long, short;
+Because of primitive data types namely: boolean, byte, char, int, float, double, long, short
 
-	*we have wrapper classes which actually “wrap” the primitive data type into an object of that class;
+	we have wrapper classes which actually “wrap” the primitive data type into an object of that class
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -56,9 +56,9 @@ Java 8 interface changes include static methods and default methods in interface
 
 ## Q. Why pointers are not used in Java?
 
-*Since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,pointers are discouraged in Java;
+Since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,pointers are discouraged in Java
 
-*Increases the complexity of the program and since Java is known for simplicity of code, adding the concept of pointers will be contradicting;
+Increases the complexity of the program and since Java is known for simplicity of code, adding the concept of pointers will be contradicting
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -98,9 +98,9 @@ A Marker interface can be defined as the interface having no data member and mem
 
 ## Q. Can you override a private or static method in Java?
 
-*you cannot override a private method in sub class because it's not accessible there, we can do is create another private method with the same name in the child class;
+->you cannot override a private method in sub class because it's not accessible there, we can do is create another private method with the same name in the child class;
 
-*For static methods if you create a similar method with same return type and same method arguments in child class then it will hide the superclass method, this is known as method hiding;
+->For static methods if you create a similar method with same return type and same method arguments in child class then it will hide the superclass method, this is known as method hiding;
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -122,11 +122,11 @@ Doesnot executes only in following cases;
 Java.lang.Object class, parent of all has following methods:
 	
 	->protected Object clone() throws CloneNotSupportedException;
-							*Creates and returns a copy of this object;
+	Creates and returns a copy of this object;
 	->public boolean equals(Object obj);
-							*Indicates whether some other object is “equal to” this one;
+	Indicates whether some other object is “equal to” this one;
 	->protected void finalize() throws Throwable;
-							*Called by the garbage collector on an object when garbagecollection   determines that there are no more references to the object;
+	Called by the garbage collector on an object when garbagecollection   determines that there are no more references to the object;
 	->public final Class getClass() : Returns the runtime class of an object;
 	->public int hashCode(): Returns a hash code value for the object;
 	->public String toString(): Returns a string representation of the object;
