@@ -47,7 +47,32 @@ Java 8 interface changes include static methods and default methods in interface
 ## Q. Why Java is not 100% Object-oriented?
 
 Because of primitive data types namely: boolean, byte, char, int, float, double, long, short
-we have wrapper classes which actually “wrap” the primitive data type into an object of that class.
+	*we have wrapper classes which actually “wrap” the primitive data type into an object of that class.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## Q. Why pointers are not used in Java?
+
+*Since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,pointers are discouraged in Java.
+*Increases the complexity of the program and since Java is known for simplicity of code, adding the concept of pointers will be contradicting.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## Q. What is JIT compiler in Java?
+
+Java source code converts into byte code using JDK compiler and byte code converts into machine codes by using JRE or JVM in JRE there will be interpreter and JIT compiler 
+
+* where Java code is machine independent. JDK and JRE are machine dependent.
+
+* Interpreter will convert the byte code line by line into machine code.Decrase the effecinecy and increase the time.
+
+* JIT compiler is used for perfomance it just converts bunch of byte code into machine code within less time without using interpretor.
+
+<img src="assets/JIT.png" alt="Jit Compiler" />
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
